@@ -21,7 +21,7 @@ jobs:
           - {VERSION: "3.6", TOXENV: "pep8"}
     name: "tox ${{ matrix.PYTHON.TOXENV }}"
     steps:
-      - uses: actions/checkout@v2.4.0
+      - uses: actions/checkout@v3.1.0
       - name: Setup python
         uses: actions/setup-python@v2.3.1
         with:
